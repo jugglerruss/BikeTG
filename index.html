@@ -30,13 +30,6 @@
     <div id="unity-container">
         <canvas id="unity-canvas" tabindex="-1"></canvas>
         <div id="unity-loading-bar">
-            <div id="version-container">
-                <img src="img/version_product_32.png" />
-                <div id="version-product">1.0.0</div>
-                <div id="version-separator"></div>
-                <img src="img/version_sdk_32.png" />
-                <div id="version-sdk">1.0.0</div>
-            </div>
             <div id="unity-logo"></div>
             <div id="unity-progress-bar-empty">
                 <div id="unity-progress-bar-full"></div>
@@ -47,12 +40,6 @@
     <!-- Banner advertisement. -->
     <div id="banner-container"></div>
     <!-- Version labels. -->
-    <script type="text/javascript">
-        document.body.style.backgroundImage = "url('img/" + runtimeData.backgroundTextureName + "')";
-        document.getElementById("unity-logo").style.backgroundImage = "url('img/" + runtimeData.iconTextureName + "')";
-        document.getElementById("version-product").innerHTML = runtimeData.productVersion;
-        document.getElementById("version-sdk").innerHTML = runtimeData.sdkVersion;
-    </script>
     <!-- Company logo. -->
     <script type="text/javascript" src="lib/threeImport.js"></script>
     <!-- Service worker. -->

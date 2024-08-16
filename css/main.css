@@ -30,6 +30,7 @@ html, body {
 	/* BACKGROUND BEHIND UNITY CONTAINER */
 	background-position: center center;
 	background-size: cover;
+	background: radial-gradient(circle, #87CEEB 0%, #0000FF 100%);
 }
 
 img {
